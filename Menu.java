@@ -1,6 +1,4 @@
 
-
-
 public class Menu {
     private final ProductInterface productData; // DIP - зависит от интерфейса
     private final int exitCode;
@@ -15,4 +13,5 @@ public class Menu {
         productData.getAllProducts().forEach(System.out::println);
         System.out.println(exitCode + " - Выход");
     }
+
 }
